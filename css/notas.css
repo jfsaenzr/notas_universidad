@@ -9,4 +9,5 @@ body {
 
 .table th {
     text-align: center !important;
+    text-align: justify;
 }

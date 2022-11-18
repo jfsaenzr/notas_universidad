@@ -264,13 +264,9 @@ var table = $('#table').DataTable({
     //"lengthMenu": [5],
     dom: 'Bfrtip',
     buttons: [
-        {
-            text: 'Exportar tabla Excel',
-            className: 'btn btn-outline-success',
-            action: function () {
-                exportTableToExcel('table', 'Notas');
-            }
-        }
+        { extend: 'excel', className: 'btn btn-success' },
+        { extend: 'csv', className: 'btn btn-primary' },
+        { extend: 'pdf', className: 'btn btn-danger' }
     ],
     responsive: true,
     data: array,
