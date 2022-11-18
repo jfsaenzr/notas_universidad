@@ -1,0 +1,12 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin-top: 10px;
+}
+
+.titulo {
+    color: rgb(124, 124, 124);
+}
+
+.table th {
+    text-align: center !important;
+}
