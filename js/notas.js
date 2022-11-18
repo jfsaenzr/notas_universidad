@@ -257,11 +257,11 @@ selectColums.forEach(function (d) {
 
 $("#myTable")
     .empty()
-    .append('<table id="table" class="table table-hover"></table>')
+    .append('<table id="table" class="table table-hover table-striped table-bordered"></table>')
     .html();
 
 var table = $('#table').DataTable({
-    //"lengthMenu": [5],
+    "lengthMenu": [15],
     dom: 'Bfrtip',
     buttons: [
         { extend: 'excel', className: 'btn btn-success' },
