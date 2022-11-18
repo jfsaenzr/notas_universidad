@@ -266,7 +266,7 @@ var table = $('#table').DataTable({
     buttons: [
         { extend: 'excel', className: 'btn btn-success' },
         { extend: 'csv', className: 'btn btn-primary' },
-        { extend: 'pdf', className: 'btn btn-danger' }
+        { extend: 'pdfHtml5', className: 'btn btn-danger', download: 'open' }
     ],
     responsive: true,
     data: array,
